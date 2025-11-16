@@ -17,7 +17,7 @@ spec:
       containers:
         - name: backend
           # Example gRPC server with /ping endpoint
-          image: docker.io/panthuya/grpc-server
+          image: docker.io/panthuya/backend
           ports:
             - name: grpc
               containerPort: 6565
